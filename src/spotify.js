@@ -1,5 +1,5 @@
 module.exports = function (RED) {
-    const SpotifyWebApi = require('spotify-web-api-node');
+    const SpotifyWebApi = require('@g749/spotify-web-api-node');
 
     function SpotifyNode(config) {
         RED.nodes.createNode(this, config);

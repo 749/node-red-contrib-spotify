@@ -2,7 +2,7 @@ module.exports = function (RED) {
 
     const url = require('url');
     const crypto = require('crypto');
-    const SpotifyWebApi = require('spotify-web-api-node');
+    const SpotifyWebApi = require('@g749/spotify-web-api-node');
 
     function AuthNode(config) {
         RED.nodes.createNode(this, config);
